@@ -28,5 +28,6 @@ def exercise1(tp, fp, fn):
     print(f'recall is {recall}')
     print(f'f1-score is {f1_score}')
 
-exercise1(tp =2,fp =3,fn =4)
-exercise1(tp ='a',fp =3,fn =4)
+
+exercise1(tp=2, fp=3, fn=4)
+exercise1(tp='a', fp=3, fn=4)

@@ -1,6 +1,7 @@
 import random
 import math
 
+
 def exercise3():
     number_sample = input('Input number of samples (integer number) which are generated: ')
     if not number_sample.isdigit():
@@ -37,5 +38,6 @@ def exercise3():
         final_loss = math.sqrt(total_loss / number_sample)
 
     print(f'final {loss_name}: {final_loss:.6f}')
+
 
 exercise3()
