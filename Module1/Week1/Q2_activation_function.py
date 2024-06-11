@@ -1,10 +1,13 @@
 import math
+
+
 def is_number(n):
     try:
         float(n)
         return True
     except ValueError:
         return False
+
 
 def exercise2():
     x = input('Input x = ')
@@ -27,5 +30,6 @@ def exercise2():
         return
 
     print(f'{acti_fun}: f({x}) = {result}')
+
 
 exercise2()
