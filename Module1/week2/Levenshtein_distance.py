@@ -24,5 +24,5 @@ def levenshtein_distance(token1, token2):
     return matrix_sample[a][b]
 
 
-print(levenshtein_distance("nice", "ice"))
+print(levenshtein_distance("Hello", "ello"))
 print(levenshtein_distance("flaw", "lawn"))
